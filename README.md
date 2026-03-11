@@ -8,8 +8,8 @@ Take the broader platform ecosystem and shape it into a realistic SaaS applicati
 
 ## Role in the ecosystem
 
-- Product specialization downstream of `master-platform`
-- Uses ideas from `service-template` and `security-platform`
+- Product specialization downstream of `orbit`
+- Uses ideas from `forge` and `aegis`
 - Neighbor to `project-universe`
 
 ## Status
@@ -48,9 +48,9 @@ node dist/index.js
 
 ## Related repositories
 
-- `master-platform`
-- `service-template`
-- `security-platform`
+- `orbit`
+- `forge`
+- `aegis`
 
 ## Future direction
 
