@@ -1,4 +1,4 @@
-# saas-platform
+# summit
 
 Product-oriented SaaS platform starter with multi-tenant domain boundaries and business service direction.
 
@@ -10,7 +10,7 @@ Take the broader platform ecosystem and shape it into a realistic SaaS applicati
 
 - Product specialization downstream of `orbit`
 - Uses ideas from `forge` and `aegis`
-- Neighbor to `project-universe`
+- Neighbor to `cosmos`
 
 ## Status
 
@@ -24,7 +24,7 @@ Level 2 starter with domain notes and a small TypeScript domain model.
 ## Structure
 
 ```text
-saas-platform/
+summit/
 ├── docs/
 │   └── domains.md
 ├── src/
