@@ -1,57 +1,34 @@
 # summit
 
-Product-oriented SaaS platform starter with multi-tenant domain boundaries and business service direction.
-
 ## Purpose
+Model product workflows, tenants, users, and business behavior in a SaaS-oriented system.
 
-Take the broader platform ecosystem and shape it into a realistic SaaS application surface.
+## Why it matters
+Without a clear product and domain layer, services stay technically capable but fail to reflect actual business behavior.
 
-## Role in the ecosystem
+## Scope
+This repo focuses on domain models, workflow structure, and multi-tenant product concerns. It does not try to contain every platform concern by itself.
 
-- Product specialization downstream of `orbit`
-- Uses ideas from `forge` and `aegis`
-- Neighbor to `cosmos`
+## System Role
+`summit` is the product and business-systems layer for the ecosystem. It gives the broader engineering platform a concrete application surface.
 
-## Status
+## System Connections
+- Depends on: service foundations from `forge` and contracts from `gateway`.
+- Feeds into: user-facing workflows and product behavior in `orbit`.
+- Interacts with: `forge`, `gateway`, `orbit`.
 
-Level 2 starter with domain notes and a small TypeScript domain model.
+## Core Concepts
+- tenant boundaries
+- user workflows
+- domain models
+- business rules
+- product state
 
-## Tech stack
+## Minimal Artifact
+`src/domain.ts`, `src/index.ts`, and `docs/domains.md` provide the starter workflow and business-domain model.
 
-- TypeScript
-- Node.js
+## Notes
+The product focus is meant to stay modular: explicit workflows, explicit domain edges, and no giant catch-all app layer.
 
-## Structure
-
-```text
-summit/
-├── docs/
-│   └── domains.md
-├── src/
-│   ├── domain.ts
-│   └── index.ts
-├── .editorconfig
-├── .gitignore
-├── README.md
-├── ROADMAP.md
-├── package.json
-└── tsconfig.json
-```
-
-## Getting started
-
-```bash
-npm install
-npm run build
-node dist/index.js
-```
-
-## Related repositories
-
-- `orbit`
-- `forge`
-- `aegis`
-
-## Future direction
-
-Grow toward modular SaaS domains, not a giant undifferentiated “app” repo.
+## Next Steps
+Add richer tenant scenarios, lifecycle flows, and service collaboration patterns.
